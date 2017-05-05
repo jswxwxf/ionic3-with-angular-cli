@@ -375,7 +375,7 @@ module.exports = {
         "favicon.ico"
       ],
       "globOptions": {
-        "cwd": "/Users/jwang/WebstormProjects/myapp/src",
+        "cwd": "/Users/jwang/WebstormProjects/ionic3-with-angular-cli/src",
         "dot": true,
         "ignore": "**/.gitkeep"
       }
