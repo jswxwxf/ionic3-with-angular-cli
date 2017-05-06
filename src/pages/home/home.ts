@@ -1,46 +1,25 @@
-import { Component } from '@angular/core';
-import { AlertController } from 'ionic-angular';
+import { Component,  OnInit } from '@angular/core';
+import { ToastController } from "ionic-angular";
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  styleUrls: ['home.scss']
 })
-export class HomePage {
+export class HomePage implements OnInit {
 
-  testRadioOpen: boolean;
-  testRadioResult;
-
-  constructor(private alertCtrl: AlertController) { }
-
-  alert() {
-    let alert = this.alertCtrl.create();
-    alert.setTitle('Lightsaber color');
-
-    alert.addInput({
-      type: 'checkbox',
-      label: 'Alderaan',
-      value: 'value1',
-      checked: true
-    });
-
-    alert.addInput({
-      type: 'checkbox',
-      label: 'Bespin',
-      value: 'value2'
-    });
-
-
-    alert.addButton('Cancel');
-    alert.addButton({
-      text: 'OK',
-      handler: data => {
-        this.testRadioOpen = false;
-        this.testRadioResult = data;
-      }
-    });
-    alert.present();
+  constructor(private toastCtrl: ToastController) {
   }
 
+  ngOnInit(): void {
+  }
 
+  presentToast() {
+    let toast = this.toastCtrl.create({
+      message: 'User was added successfully',
+      duration: 3000
+    });
+    toast.present();
+  }
 
 }
