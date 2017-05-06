@@ -71,8 +71,8 @@ module.exports = {
       "./src/polyfills.ts"
     ],
     "styles": [
-      "./node_modules/ionic-angular/css/ionic.min.css",
-      "./node_modules/ionicons/dist/css/ionicons.min.css",
+      // "./node_modules/ionic-angular/css/ionic.min.css",
+      // "./node_modules/ionicons/dist/css/ionicons.min.css",
       "./src/styles.scss"
     ]
   },
@@ -109,8 +109,8 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
@@ -134,8 +134,8 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
@@ -167,8 +167,8 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
@@ -198,8 +198,8 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
@@ -230,8 +230,8 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.css$/,
@@ -258,8 +258,8 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.scss$|\.sass$/,
@@ -294,8 +294,8 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.less$/,
@@ -328,8 +328,8 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
-          path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
+          // path.join(process.cwd(), "node_modules/ionic-angular/css/ionic.min.css"),
+          // path.join(process.cwd(), "node_modules/ionicons/dist/css/ionicons.min.css"),
           path.join(process.cwd(), "src/styles.scss")
         ],
         "test": /\.styl$/,
